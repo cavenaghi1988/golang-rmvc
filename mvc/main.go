@@ -1,6 +1,6 @@
 package main
 
-import "mvc/app"
+import "application/mvc/app"
 
 func main() {
 	app.StartApp()

@@ -1,9 +1,9 @@
 package controller
 
 import (
+	"application/mvc/services"
+	"application/mvc/util"
 	"encoding/json"
-	"mvc/services"
-	"mvc/util"
 	"net/http"
 	"strconv"
 )

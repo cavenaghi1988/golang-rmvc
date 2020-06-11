@@ -1,8 +1,8 @@
 package domain
 
 import (
+	"application/mvc/util"
 	"fmt"
-	"mvc/util"
 	"net/http"
 )
 
