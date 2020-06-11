@@ -1,8 +1,8 @@
 package services
 
 import (
-	"mvc/domain"
-	"mvc/util"
+	"application/mvc/domain"
+	"application/mvc/util"
 )
 
 // GetUser is a model data base user

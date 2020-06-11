@@ -1,14 +1,14 @@
 package app
 
 import (
-	"mvc/controller"
+	"application/mvc/controller"
 	"net/http"
 )
 
-func StartApp()  {
-	http.HandleFunc("/users",controller.GetUser)
+func StartApp() {
+	http.HandleFunc("/users", controller.GetUser)
 
-	if err:=http.ListenAndServe(":8080",nil); err != nil{
+	if err := http.ListenAndServe(":8080", nil); err != nil {
 		panic(err)
 	}
 }
